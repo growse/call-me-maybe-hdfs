@@ -1,0 +1,3 @@
+[submodule "salticid"]
+	path = salticid
+	url = https://github.com/aphyr/salticid.git

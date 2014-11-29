@@ -11,3 +11,4 @@ Notes
 2. Need to make sure that LXC dnsmasq is enabled on host. Uncomment from /etc/default/lxc to use the `/etc/lxc/dnsmasq.conf` file
 3. `/etc/lxc/dnsmasq.conf` needs to contain IP leases: e.g. `dhcp-host=n1,10.0.3.101`
 4. Use `lxc-attach` to attach and install openssh server on each container. Then copy ssh pubkey to root account
+5. gem install salticid
